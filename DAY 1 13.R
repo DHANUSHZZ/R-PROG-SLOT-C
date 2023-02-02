@@ -1,0 +1,6 @@
+n = floor(rnorm(1000, 50, 100))
+print("List of random Nums:")
+print(n)
+t=table(n)
+print("count Occurences of each value:")
+print(t)

@@ -1,0 +1,6 @@
+n1=rbind(rep('A',3),rep("B",3),rep("c",3))
+n2=rbind(rep("D",3),rep("E",3),rep("F",3))
+n3=rbind(rep("G"),rep("H",3),rep("I",3))
+a=matrix(t(cbind(n1,n2,n3)),ncol=3,byrow=T)
+print("the combined matrix is ")
+print(a)

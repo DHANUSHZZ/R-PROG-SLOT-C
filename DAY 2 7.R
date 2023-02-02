@@ -1,0 +1,9 @@
+exam_data=data.frame(
+  name=c("anastatsia","dima","katherine","james","emily","michael","mathew","laura","kevin","jonas"),
+  score=c(12.5,9,16.5,12,9,20,14.5,13.5,8,19),
+  attempts=c(1,3,2,3,2,3,1,1,2,1),
+  qualify=c("yes","no","yes","no","no","yes","yes","no","no","yes"))
+print(exam_data)
+dats=data.frame(name=c("robert","sophia"),score=c(10.5,9),attempts=c(1,3),qualify=c("yes","no"))
+exam_data1=rbind(exam_data,dats)
+print(exam_data1)

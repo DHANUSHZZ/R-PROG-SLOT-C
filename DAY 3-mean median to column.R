@@ -1,0 +1,5 @@
+library(tidyverse)
+customer_seg = read.csv('R_68_Mall_Customers.csv')
+glimpse(customer_seg)
+mean(customer_seg$Annual.Income..k..)
+median(customer_seg$Annual.Income..k..)
